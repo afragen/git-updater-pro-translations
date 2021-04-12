@@ -1,0 +1,38 @@
+{
+  "name": "afragen/git-updater-pro-translations",
+  "description": "Translation language packs for Git Updater PRO plugin",
+  "type": "library",
+  "keywords": [
+    "git-updater-pro",
+    "language packs",
+    "translations"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andy Fragen",
+      "email": "andy@thefragens.com",
+      "homepage": "https://thefragens.com",
+      "role": "Developer"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/afragen/git-updater-pro-translations"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/afragen/git-updater-pro-translations/issues",
+    "source": "https://github.com/afragen/git-updater-pro-translations"
+  },
+  "prefer-stable": true,
+  "require": {
+    "afragen/language-pack-maker": "dev-master"
+  },
+  "scripts": {
+    "post-update-cmd": [
+      "php ./vendor/autoload.php"
+    ]
+  }
+}
